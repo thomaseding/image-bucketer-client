@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Image Bucketer Client</title>
+  <link rel="stylesheet" href="./css/main.css" />
+</head>
+
+<body>
+  <div id="magnifier-glass"></div>
+  <div id="app">
+    <div id="subject-image-container">
+      <div class="button-container">
+        <button id="prev-subject-button">Prev Subject</button>
+        <button id="next-subject-button">Next Subject</button>
+      </div>
+      <img id="subject-image" alt="subject-image" />
+    </div>
+    <div id="dropdown-container">
+      <label for="subject-dropdown">Subject: </label>
+      <select id="subject-dropdown"></select>
+      <label for="category-dropdown">Category: </label>
+      <select id="category-dropdown"></select>
+    </div>
+    <div id="category-container">
+      <h1>Category</h1>
+      <div class="category-name">dummy-category</div>
+    </div>
+    <div class="button-container">
+      <button id="prev-category-button">Prev Category</button>
+      <button id="next-category-button">Next Category</button>
+    </div>
+    <div id="tags-container">
+      <h1>Tags</h1>
+    </div>
+    <div id="status-message"></div>
+  </div>
+  <script type="module" src="../src/index.ts"></script>
+</body>
+
+</html>

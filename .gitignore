@@ -1,0 +1,18 @@
+# Node.js dependencies
+node_modules/
+
+dist/
+.parcel-cache/
+
+# TypeScript build output
+client/js/
+server/dist/
+
+# Development tools and IDEs
+.vscode/
+.idea/
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
